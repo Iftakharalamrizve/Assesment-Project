@@ -1,7 +1,7 @@
-Technology :
-Backend : Php(Laravel)
-Frontend : Angular 10
-Database : mySql
+Technology :                                                                                                                                             
+Backend : Php(Laravel)                                                                                                                             
+Frontend : Angular 10                                                                                                                                         
+Database : mySql                                                                                                                    
 
 Backend Installation process :
 
