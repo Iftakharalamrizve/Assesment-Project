@@ -48,7 +48,7 @@ export class RegisterComponent implements OnInit {
             ),
           ],
         ],
-        image: [null],
+        image_file: [null],
         password: ['', [Validators.required, Validators.minLength(8)]],
         confirmPassword: ['', Validators.required],
       },
@@ -62,7 +62,7 @@ export class RegisterComponent implements OnInit {
   onFileSelect(event) {
     const file = (event.target as HTMLInputElement).files[0];
     this.form.patchValue({
-      image: file,
+      image_file: file,
     });
   }
 
